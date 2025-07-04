@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter >
      <Navbar  title={"TextUtils"} button={"Search"}/>
     <Routes>
       <Route path="/" element={<Textform />} />
