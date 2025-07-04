@@ -1,0 +1,23 @@
+.container{
+    
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 80vh;
+    line-height: 2rem;
+}
+.container h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.container p{
+    font-size: 1.2rem;
+    color: #f7f0f0;
+}
+.container h4{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}

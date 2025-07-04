@@ -1,0 +1,40 @@
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   height: 3rem;
+   align-items: center;
+   padding: 1rem;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.search input{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+}
+.search button{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
